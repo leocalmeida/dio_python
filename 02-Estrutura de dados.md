@@ -42,6 +42,7 @@ Características:
 - Não ordenados (a ordem dos elementos não é garantida)
 - Mutáveis (podem ser modificados)
 - Não permitem elementos duplicados (apenas valores únicos)
+- Não permitem fatiamento
 
 ```Python
 meu_conjunto = {1, 2, 3, 2, 4}
@@ -50,6 +51,8 @@ print(meu_conjunto) # Saída: {1, 2, 3, 4} (a ordem pode variar)
 conjunto_a = {1, 2, 3}
 conjunto_b = {3, 4, 5}
 print(conjunto_a.union(conjunto_b)) # Saída: {1, 2, 3, 4, 5}
+
+print(conjunto_a[0]) # Saída: TypeError: 'set' object is not subscriptable
 ```
 
 ### 📚 4. Dicionários (dict)
