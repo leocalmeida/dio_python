@@ -1,6 +1,10 @@
-# Curso Python Fundamentos - DIO
-Estou revisando os fundamentos do Python para reforçar o que já estudei e não deixar o conteúdo se perder com o tempo. 
-Neste arquivo, anoto de forma simples e prática os principais conceitos da linguagem, com exemplos que me ajudam a lembrar e aplicar no dia a dia.
+# 📚 Revisão de Fundamentos Python | DIO
+Bem-vindos ao meu espaço de revisão dos **Fundamentos de Python**.
+
+Aqui, você encontrará um compilado **prático e conciso** dos principais conceitos da linguagem. 
+Meu objetivo é solidificar o meu aprendizado, aplicar o conhecimento no dia a dia e, o mais importante, **romper o ciclo de esquecimento** que tanto me desafia. 
+Cada arquivo contém **anotações claras e exemplos funcionais** para facilitar a minha jornada de estudos.
+
 
 ## Meus arquivos:
 ### 🐍 [01 - Fundamentos](https://github.com/leocalmeida/dio_python/blob/main/01_fundamentos.md)
