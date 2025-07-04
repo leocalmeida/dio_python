@@ -76,7 +76,7 @@ meu_dicionario["idade"] = 31
 print(meu_dicionario) # Saída: {'nome': 'Roberval', 'idade': 31, 'cidade': 'São Pedro dos Morrinhos'}
 ```
 
-### 🧠 5. Funções em Python
+### 🧠 5. Funções (def)
 
 Funções são blocos de código que podem ser reutilizados em diferentes partes do programa. Elas ajudam a deixar o código mais limpo, organizado e fácil de manter.
 
