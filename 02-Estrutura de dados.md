@@ -75,3 +75,38 @@ print(meu_dicionario["nome"]) # Saída: Roberval
 meu_dicionario["idade"] = 31
 print(meu_dicionario) # Saída: {'nome': 'Roberval', 'idade': 31, 'cidade': 'São Pedro dos Morrinhos'}
 ```
+
+### 🧠 5. Funções em Python
+
+Funções são blocos de código que podem ser reutilizados em diferentes partes do programa. Elas ajudam a deixar o código mais limpo, organizado e fácil de manter.
+
+✏️ Como criar uma função
+```python
+def saudacao():
+    print("Olá!")
+
+# Para chamar a função:
+saudacao()
+```
+🧩 Função com parâmetros
+```python
+def saudacao_personalizada(nome):
+    print(f"Olá, {nome}!")
+
+saudacao_personalizada("Leonardo")
+
+# Um parâmetro com valor padrao
+def saudacao_personalizada(nome="Cleitin"):
+    print(f"Olá, {nome}!")
+
+saudacao_personalizada("Leonardo") #Saída: Olá, Leonardo!
+saudacao_personalizada() #Saída: Olá, Cleitin!
+```
+```python
+🔁 Função com retorno
+def soma(a, b):
+    return a + b
+
+resultado = soma(3, 5)
+print(resultado)  #Saida: 8
+```
